@@ -1,0 +1,8 @@
+.li {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+

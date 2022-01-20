@@ -1,0 +1,44 @@
+select {
+	width: 90px;
+}
+fieldset {
+	width: 10vh;
+	margin: 0 auto;
+	transition: 0.3s;
+}
+
+fieldset:hover {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+label {
+	color: white;
+}
+legend {
+	color: white;
+}
+
+.button {
+	width: 80px;
+	background-color: violet;
+	outline: none;
+	border: none;
+	transition: 0.3s;
+	border-radius: 10px;
+	color: violet;
+}
+
+.button:hover {
+	width: 100px;
+	height: 30px;
+	border-radius: 15px;
+	color: white;
+}
+
+.flag {
+    position: relative;
+    top: 5px;
+	width: 20px;
+	height: 20px;
+}

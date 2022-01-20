@@ -1,0 +1,53 @@
+.div {
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	background-color: gray;
+	border-radius: 20px;
+	z-index: 20;
+	left: 37%;
+	top: 25%;
+	align-items: center;
+	animation: YES ease-in-out 0.5s;
+}
+
+@keyframes YES {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0.8;
+	}
+}
+
+
+.flex {
+	display: flex;
+	justify-content: end;
+}
+.h1 {
+	font-family: monospace;
+	color: purple;
+	text-shadow: 0 0 10px;
+	font-size: 20px;
+}
+.button {
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: red;
+	text-align: center;
+	color: white;
+    outline: none;
+    border: none;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    transition:0.4s;
+}
+.button:hover{
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+
+}
